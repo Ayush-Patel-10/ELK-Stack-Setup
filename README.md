@@ -1,8 +1,7 @@
 # ELK-Stack-Setup-in-Linux
 
-## For Linux:
-
-### Download all the tar(Linux) files for Elasticsearch, Kibana and Logstash using these links:
+=========================
+## Downloading:
 
 ### Elasticsearch: https://www.elastic.co/downloads/elasticsearch
 
