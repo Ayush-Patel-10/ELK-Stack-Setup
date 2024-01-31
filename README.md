@@ -10,7 +10,7 @@ ELK-Stack install and download steps:
 
 ### Kibana: https://www.elastic.co/downloads/kibana
 
-### : https://www.elastic.co/downloads/logstash
+### Logstash: https://www.elastic.co/downloads/logstash
 
 ===========================
 
