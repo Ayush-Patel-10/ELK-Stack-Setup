@@ -2,17 +2,18 @@
 
 ELK-Stack install and download steps:
 
-For Linux:
+## For Linux:
 
-Download all the tar(Linux) files for elasticsearch, kibana and logstash using these links:
+### Download all the tar(Linux) files for Elasticsearch, Kibana and Logstash using these links:
 
-Elasticsearch: https://www.elastic.co/downloads/elasticsearch
+### Elasticsearch: https://www.elastic.co/downloads/elasticsearch
 
-Kibana: https://www.elastic.co/downloads/kibana
+### Kibana: https://www.elastic.co/downloads/kibana
 
-Logstash: https://www.elastic.co/downloads/logstash
+### : https://www.elastic.co/downloads/logstash
 
 ===========================
+
 The files will be in Downloads you need to move it to Ubuntu.
 
 To do that follow this step:
@@ -23,7 +24,7 @@ Change the directory and shift the tar files to Ubuntu:
 
 =======================
 
-Extracting:
+## Extracting:
 
 Then extract them:
 
@@ -49,7 +50,7 @@ You might encounter error when running Kibana, try this:
 
 ======================
 
-Running the stack:
+## Running the stack:
 
 For elastic go to this directory:
 
@@ -81,9 +82,9 @@ The run this:
 
 ============================
 
-Few steps to do before running the elk-stack:
+## Few steps to do before running the elk-stack:
 
-Generate Kibana Enrollment Token:
+### Generate Kibana Enrollment Token:
 
 In a new terminal, navigate to the Elasticsearch bin directory:
 
@@ -103,7 +104,7 @@ Paste the enrollment token into the Kibana configuration interface in your brows
 
 ========================
 
-Reset Elasticsearch Password:
+### Reset Elasticsearch Password:
 
 In a new terminal, navigate to the Elasticsearch bin directory.
 
