@@ -20,7 +20,7 @@ To do that follow this step:
 
 Change the directory and shift the tar files to Ubuntu:
 
-=> sudo mv <name-of-the-files> /home
+=> sudo mv (name-of-the-files) /home
 
 =======================
 
@@ -32,17 +32,17 @@ Then extract them:
 
 Now to run them in Ubuntu we need to grant permissions:
 
-=> sudo chown -R ayush:ayush /home/<kibana-8.12.0> OR <elasticsearch-8.12.0> OR <logstash-8.12.0>
+=> sudo chown -R ayush:ayush /home/(kibana-8.12.0) OR (elasticsearch-8.12.0) OR (logstash-8.12.0)
 
-Here ayush is the username.
+Here, ayush is the username.
 
 To add a new user, run this:
 
-sudo adduser <username>
+sudo adduser (username)
 
 ========================
 
-You might encounter error when running Kibana, try this:
+You might encounter an error when running Kibana, try this:
 
 => sudo ./kibana --allow-root
 
