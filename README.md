@@ -1,6 +1,4 @@
-# ELK-Stack-Setup
-
-ELK-Stack install and download steps:
+# ELK-Stack-Setup-in-Linux
 
 ## For Linux:
 
