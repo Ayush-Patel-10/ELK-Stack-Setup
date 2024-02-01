@@ -9,7 +9,11 @@
 
 ### Logstash: https://www.elastic.co/downloads/logstash
 
-===========================
+### Java: https://www.oracle.com/java/technologies/downloads/
+
+For elasticsearch version 8.12 you need to install Java version 21
+
+==========================
 
 The files will be in Downloads you need to move it to Ubuntu.
 
@@ -30,6 +34,19 @@ Move the tar files to Ubuntu:
 Then extract them:
 
 => sudo tar -xzvf (name-of-the-files)
+
+==============================
+
+## Configure Environment Variables:
+
+=> nano ~/.bashrc
+
+Add this below and save them (Ctrl + S) and exit (Ctrl + X).
+
+export JAVA_HOME=/home/jdk-21.0.2
+export PATH=$JAVA_HOME/bin:$PATH
+
+================================
 
 Now to run them in Ubuntu we need to grant permissions:
 
