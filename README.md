@@ -33,6 +33,10 @@ Move the tar files to Ubuntu:
 
 ## Extracting:
 
+Change directory to Ubuntu:
+
+=> cd /home
+
 Then extract them:
 
 => sudo tar -xzvf (name-of-the-files)
