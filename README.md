@@ -39,47 +39,9 @@ Here, ayush is the username.
 
 To add a new user, run this:
 
-sudo adduser (username)
+sudo adduser (username) 
 
-========================
-
-You might encounter an error when running Kibana, try this:
-
-=> sudo ./kibana --allow-root
-
-(P.S. This error only came once for me)
-
-======================
-
-## Running the stack:
-
-For elastic go to this directory:
-
-/home/elasticsearch-8.12.0/bin
-
-The run this:
-
-=> ./elasticsearch
-
-=======================
-
-For elastic go to this directory:
-
-/home/kibana-8.12.0/bin
-
-The run this:
-
-=> ./kibana
-
-=======================
-
-For logstash go to this directory:
-
-/home/logstash-8.12.0
-
-The run this:
-
-=> bin/logstash -e 'input{stdin{}} output{stdout{}}'
+Then run the above line.
 
 ============================
 
@@ -115,6 +77,47 @@ Run the password reset command:
 
 Note down the newly generated password.
 
+
+==============================
+
+
+## Running the stack:
+
+For elastic go to this directory:
+
+/home/elasticsearch-8.12.0/bin
+
+The run this:
+
+=> ./elasticsearch
+
+=======================
+
+For elastic go to this directory:
+
+/home/kibana-8.12.0/bin
+
+The run this:
+
+=> ./kibana
+
+========================
+
+You might encounter an error when running Kibana, try this:
+
+=> sudo ./kibana --allow-root
+
+(P.S. This error only came once for me)
+
+========================
+
+For logstash go to this directory:
+
+/home/logstash-8.12.0
+
+The run this:
+
+=> bin/logstash -e 'input{stdin{}} output{stdout{}}'
 
 
 
