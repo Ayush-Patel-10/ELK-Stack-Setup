@@ -25,7 +25,7 @@ Change the directory and shift the tar files to Ubuntu:
 
 Then extract them:
 
-=> sudo tar -zxvf (name-of-the-files)
+=> sudo tar -xzvf (name-of-the-files)
 
 Now to run them in Ubuntu we need to grant permissions:
 
