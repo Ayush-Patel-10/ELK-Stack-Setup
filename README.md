@@ -15,6 +15,8 @@ For elasticsearch version 8.12 you need to install Java version 21
 
 ==========================
 
+## Moving the files
+
 The files will be in Downloads you need to move it to Ubuntu.
 
 To do that follow this step:
