@@ -50,6 +50,7 @@ Then extract them:
 Add this below and save them (Ctrl + S) and exit (Ctrl + X).
 
 export JAVA_HOME=/home/jdk-21.0.2
+
 export PATH=$JAVA_HOME/bin:$PATH
 
 ================================
