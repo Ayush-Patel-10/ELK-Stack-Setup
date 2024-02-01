@@ -77,27 +77,25 @@ Run the password reset command:
 
 Note down the newly generated password.
 
-
 ==============================
-
 
 ## Running the stack:
 
-For elastic go to this directory:
+For elasticsearch go to this directory:
 
-/home/elasticsearch-8.12.0/bin
+=> cd /home/elasticsearch-8.12.0/bin
 
-The run this:
+Then run this:
 
 => ./elasticsearch
 
 =======================
 
-For elastic go to this directory:
+For kibana go to this directory:
 
-/home/kibana-8.12.0/bin
+=> cd /home/kibana-8.12.0/bin
 
-The run this:
+Then run this:
 
 => ./kibana
 
@@ -113,9 +111,9 @@ You might encounter an error when running Kibana, try this:
 
 For logstash go to this directory:
 
-/home/logstash-8.12.0
+=> cd /home/logstash-8.12.0
 
-The run this:
+Then run this:
 
 => bin/logstash -e 'input{stdin{}} output{stdout{}}'
 
