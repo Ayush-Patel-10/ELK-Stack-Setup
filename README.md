@@ -15,7 +15,11 @@ The files will be in Downloads you need to move it to Ubuntu.
 
 To do that follow this step:
 
-Change the directory and shift the tar files to Ubuntu:
+Change the directory to Downloads first and then run this:
+
+=> cd /mnt/c/Users/(username)/Downloads
+
+Move the tar files to Ubuntu:
 
 => sudo mv (name-of-the-files) /home
 
